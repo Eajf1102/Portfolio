@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Emily Jacome: Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+  
+  </head>
+
+  <body>
+    <div id = "container"> 
+      <header>
+            <nav>
+              <ul class = "home-nav">
+                 <li><a href = "#about-me">ABOUT ME</a></li>
+                 <li><a href = "#resume">RESUME</a></li>
+                 <li class= "logo">EMILY JACOME</li>
+                 <li><a href = "portfolio.html">PORTFOLIO</a></li>
+                 <!-- make a grid/columns with images for portfolio, have that lead to different html pages  -->
+                 <li><a href = "portfolio.html">CONTACT ME</a></li>
+              </ul>
+            </nav>
+         </header> 
+
+      <section>
+        <div class="overlap">
+          <div class="left"></div>
+          <div class="right">
+            <div class="content">
+              <h1>Hi There!</h1>
+              <p>Welcome to my Portfolio. My name is Emily and I’m excited for you to learn more about me and my academic endeavors!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+       
+      <main>
+        <article id = "about-me">
+          <h2> ABOUT ME</h2>
+          <p>Welcome to my website! I'm Emily J. I am an Ecuadorian alumni of CAS at NYU and a part of NYU's OP program, <a href = "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants/opportunity-programs/college-programs.html">CSTEP</a>. I became passionate about Software development, web development, design, and everything CS related in highschool when I joined Girls Who Code. It gave me the courage to pursue something in Tech, especially as a latina. I love using code as art and to show creativity, and I have many ideas for future projects. I will let you explore and learn more about me through my portfolio page. I’m excited for you to learn more about me!</p> 
+        </article>
+     
+        <article id = "resume">
+          <h3>SOFT SKILLS</h3>
+          <div class="soft-skills">
+            <div class="trait">Organization</div>
+            <div class="trait">Creativity</div>
+            <div class="trait">Time Management</div>
+            <div class="trait">Leadership</div>
+            <div class="trait">Team Work</div>
+            <div class="trait">Ambitition</div>
+            <div class="trait">Adaptability</div>
+            <div class="trait">Good Communication</div>
+          </div>
+
+          <h3>HARD SKILLS</h3>
+      
+         <div class = "hs-content">
+          <div class="hard-skills">
+              <div class="text">HTML & CSS</div>
+              <div class="progress">
+                <div class="progress-bar" id="myBar1">65%</div>
+              </div>
+              <div class="button">
+                <button onclick="move('myBar1',65)">Click Me</button>
+              </div>
+
+          </div>
+          
+          <div class="hard-skills">
+              <div class="text">JAVASCRIPT</div>
+              <div class="progress">
+                <div class="progress-bar" id="myBar2">50%</div>
+              </div>
+              <div class="button">
+                <button onclick="move('myBar2',50)">Click Me</button>
+              </div>
+          </div>
+
+          <div class="hard-skills">
+              <div class="text">JAVA</div>
+              <div class="progress">
+                <div class="progress-bar" id="myBar3">70%</div>
+              </div>
+              <div class="button">
+                <button onclick="move('myBar3',70)">Click Me</button>
+              </div>
+          </div>
+
+           <div class="hard-skills">
+              <div class="text">Python</div>
+              <div class="progress">
+                <div class="progress-bar" id="myBar4">85%</div>
+              </div>
+              <div class="button">
+                <button onclick="move('myBar4',85)">Click Me</button>
+              </div>
+          </div>
+        </div>
+        </article>
+ 
+      </main>
+
+      <footer class = "credit">
+          <p>Made by: Emily J</p>
+          <p><a href="https://www.nyu.edu">Intro to Web design</a></p>
+      </footer>
+       
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
